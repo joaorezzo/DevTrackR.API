@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj": {}
+    "d:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj": {}
   },
   "projects": {
-    "D:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj": {
+    "d:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj",
+        "projectUniqueName": "d:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj",
         "projectName": "DevTrackR.API",
-        "projectPath": "D:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj",
+        "projectPath": "d:\\coding\\Jornada .NET\\DevTrackR.API\\DevTrackR.API.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "D:\\coding\\Jornada .NET\\DevTrackR.API\\obj\\",
+        "outputPath": "d:\\coding\\Jornada .NET\\DevTrackR.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,7 +25,6 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +43,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
